@@ -6,8 +6,9 @@
 
 Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant che estrae in tempo reale i **costi fissi di commercializzazione (PCV/QVD)** e i **prezzi della materia prima** dal sito ufficiale di [Octopus Energy Italia](https://octopusenergy.it/le-nostre-tariffe).
 
-*(Inserisci qui uno screenshot della schermata dei tuoi 9 sensori su Home Assistant)*
-
+<div align="center">
+  <img src="SENSORI.PNG" alt="Card Preview">
+</div>
 ---
 
 ## 🌟 A cosa ti serve questa integrazione?
