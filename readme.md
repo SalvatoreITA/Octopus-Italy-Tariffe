@@ -10,7 +10,7 @@ Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant ch
 <div align="center">
   <img src="SENSORI.PNG" alt="Card Preview">
 </div>
----
+
 
 ## 🌟 A cosa ti serve questa integrazione?
 
