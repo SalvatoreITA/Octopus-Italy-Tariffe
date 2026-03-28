@@ -10,15 +10,18 @@ Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant ch
 
 ---
 
-## 🌟 Perché nasce questa integrazione?
+## 🌟 A cosa ti serve questa integrazione?
 
-Mentre esistono già ottime integrazioni per leggere i dati del *proprio* contratto, spesso è difficile avere a disposizione sulla dashboard i **prezzi attuali pubblici** per poter fare un confronto e capire se conviene cambiare tariffa.
+Su Home Assistant ci sono già ottime integrazioni per monitorare i consumi e i costi del tuo *attuale* contratto. Ma come fai a sapere se sul sito di Octopus è uscita una tariffa più bassa e ti conviene cambiare piano?
 
-Questa integrazione risolve il problema alla radice con un approccio da veri "Pro":
-* **Motore JSON Infallibile:** Non usa fragili Regex sull'HTML, ma legge direttamente il database nascosto (Next.js JSON) del sito Octopus. Se cambiano la grafica del sito, l'integrazione continua a funzionare perfettamente!
-* **Zero YAML:** Si configura tutto dall'interfaccia grafica di Home Assistant in 2 clic.
-* **Super Leggera:** Fa una singola richiesta al sito ogni 12 ore, popolando istantaneamente 9 sensori. Zero stress per il tuo server e per quelli di Octopus.
-* **Perfetta per le Automazioni:** I sensori creati sono l'ideale per essere inseriti in Blueprints e automazioni che ti avvisano quando i prezzi crollano.
+Questa integrazione colma questa lacuna: estrae automaticamente i **prezzi pubblici attuali** dal sito di Octopus e li porta direttamente sulla tua dashboard.
+
+I suoi punti di forza:
+* **A prova di bomba:** Non si limita a "leggere" le scritte sulla pagina web (che si romperebbero se Octopus cambiasse la grafica del sito), ma preleva i numeri direttamente dal loro database interno. È precisissima e non smetterà di funzionare!
+* **Zero Codice:** Non devi toccare nessun file complicato. Si configura tutto dall'interfaccia grafica di Home Assistant in soli 2 clic.
+* **Leggerissima:** Controlla i prezzi in background solo 2 volte al giorno. Avrai i dati sempre aggiornati senza appesantire minimamente il tuo Home Assistant.
+
+* **Ho Realizzato una Card per utilizzare al meglio i seguenti sensori la trovi qui:** https://github.com/SalvatoreITA/Octopus-Italy-Tariffe
 
 ---
 
