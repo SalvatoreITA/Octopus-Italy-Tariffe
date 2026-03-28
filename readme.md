@@ -19,7 +19,6 @@ Su Home Assistant ci sono già ottime integrazioni per monitorare i consumi e i 
 Questa integrazione colma questa lacuna: estrae automaticamente i **prezzi pubblici attuali** dal sito di Octopus e li porta direttamente sulla tua dashboard.
 
 I suoi punti di forza:
-* **A prova di bomba:** Non si limita a "leggere" le scritte sulla pagina web (che si romperebbero se Octopus cambiasse la grafica del sito), ma preleva i numeri direttamente dal loro database interno. È precisissima e non smetterà di funzionare!
 * **Zero Codice:** Non devi toccare nessun file complicato. Si configura tutto dall'interfaccia grafica di Home Assistant in soli 2 clic.
 * **Leggerissima:** Controlla i prezzi in background solo 2 volte al giorno. Avrai i dati sempre aggiornati senza appesantire minimamente il tuo Home Assistant.
 
