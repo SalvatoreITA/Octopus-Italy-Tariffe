@@ -1,0 +1,11 @@
+{
+  "domain": "octopus_tariffe",
+  "name": "Octopus Tariffe",
+  "version": "1.0.0",
+  "documentation": "https://github.com/SalvatoreITA/Octopus-Italy-Tariffe/",
+  "dependencies": [],
+  "codeowners": ["@SalvatoreITA"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

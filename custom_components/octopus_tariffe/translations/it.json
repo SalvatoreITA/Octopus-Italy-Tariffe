@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configura Octopus Tariffe",
+        "description": "Vuoi attivare l'estrazione automatica delle tariffe (Materia Prima e Costi Fissi) dal sito ufficiale di Octopus Energy?\n\nPremi INVIA per configurare i 9 sensori."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "L'integrazione è già configurata. Ne basta una sola!"
+    }
+  }
+}
