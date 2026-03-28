@@ -1,11 +1,10 @@
 # 🐙 Octopus Tariffe - Home Assistant Custom Component
 
-Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant che estrae in tempo reale i **costi fissi di commercializzazione (PCV/QVD)** e i **prezzi della materia prima** dal sito ufficiale di [Octopus Energy Italia](https://octopusenergy.it/le-nostre-tariffe).
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![version](https://img.shields.io/badge/version-v1.0.0-blue.svg)]()
+[![maintainer](https://img.shields.io/badge/maintainer-Salvatore_Lentini_--_DomHouse.it-green.svg)](https://www.domhouse.it)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)
-![ConfigFlow](https://img.shields.io/badge/Config_Flow-Supportato-success.svg)
-![API](https://img.shields.io/badge/Scraping-JSON_Nativo-brightgreen.svg)
+Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant che estrae in tempo reale i **costi fissi di commercializzazione (PCV/QVD)** e i **prezzi della materia prima** dal sito ufficiale di [Octopus Energy Italia](https://octopusenergy.it/le-nostre-tariffe).
 
 *(Inserisci qui uno screenshot della schermata dei tuoi 9 sensori su Home Assistant)*
 
@@ -50,22 +49,27 @@ Il metodo più semplice e veloce per installare l'integrazione e mantenerla aggi
 
 1. Apri **HACS** nel tuo Home Assistant.
 2. Clicca sui tre puntini in alto a destra e seleziona **Repository personalizzati**.
-3. Incolla l'URL di questo repository: `https://github.com/TUO-NOME-UTENTE/octopus-tariffe` *(Ricorda di inserire il tuo link esatto!)*
+3. Incolla l'URL di questo repository: `https://github.com/SalvatoreITA/Octopus-Italy-Tariffe`
 4. Come categoria scegli **Integrazione**.
 5. Clicca su **Aggiungi**.
 6. Cerca "Octopus Tariffe" in HACS, scaricala e **riavvia Home Assistant**.
 
 ---
 
-## ⚙️ Configurazione (Config Flow)
+## ⚙️ Configurazione
 
-Dimentica il file `configuration.yaml`. Questa integrazione si installa in modo 100% visivo!
+Questa integrazione si installa in modo 100% visivo!
 
 1. Vai su **Impostazioni** > **Dispositivi e servizi**.
 2. Clicca sul pulsante in basso a destra **+ AGGIUNGI INTEGRAZIONE**.
 3. Cerca **Octopus Tariffe**.
 4. Clicca su Invia nella finestra che ti appare. Fatto! I tuoi 9 sensori sono immediatamente pronti all'uso.
 
----
+## ☕ Supporta il Progetto
 
-*Progettato e sviluppato per la community. Powered by [DomHouse.it](https://www.domhouse.it)*
+Ogni piccolo supporto fa un'enorme differenza: mi aiuta a mantenere vivo l'entusiasmo e mi stimola a creare e condividere nuove soluzioni per la community. Grazie di cuore per il tuo aiuto! 🚀
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/salvatore_dh)
+
+## ❤️ Crediti
+Sviluppato da [Salvatore Lentini - DomHouse.it](https://www.domhouse.it)
