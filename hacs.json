@@ -1,5 +1,5 @@
 {
-  "name": "Telegram Custom Notify",
+  "name": "Octopus Tariffe",
   "render_readme": true,
   "filename": "notify.py",
   "homeassistant": "2024.1.0"
