@@ -22,7 +22,7 @@ I suoi punti di forza:
 * **Zero Codice:** Non devi toccare nessun file complicato. Si configura tutto dall'interfaccia grafica di Home Assistant in soli 2 clic.
 * **Leggerissima:** Controlla i prezzi in background solo 2 volte al giorno. Avrai i dati sempre aggiornati senza appesantire minimamente il tuo Home Assistant.
 
-**Ho Realizzato una Card per utilizzare al meglio i seguenti sensori la trovi qui:** https://github.com/SalvatoreITA/Octopus-Italy-Tariffe
+**Ho Realizzato una Card per utilizzare al meglio i seguenti sensori la trovi qui:** https://github.com/SalvatoreITA/DomHouse-Octopus-Card
 
 ---
 
