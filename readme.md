@@ -11,6 +11,9 @@ Un'integrazione personalizzata, ultra-stabile e invisibile per Home Assistant ch
   <img src="SENSORI.PNG" alt="Card Preview">
 </div>
 
+## 🎁 Sconto Octopus
+
+Se devi attivare un nuovo abbonamento con Octopus Energy puoi usare questo [link](https://octopusenergy.it/octo-friends/quiet-gaur-553): otterrai **uno sconto fino a 50 €**
 
 ## 🌟 A cosa ti serve questa integrazione?
 
