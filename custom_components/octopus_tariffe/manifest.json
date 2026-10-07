@@ -1,7 +1,7 @@
 {
   "domain": "octopus_tariffe",
   "name": "Octopus Tariffe",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "documentation": "https://github.com/SalvatoreITA/Octopus-Italy-Tariffe/",
   "dependencies": [],
   "codeowners": ["@SalvatoreITA"],
