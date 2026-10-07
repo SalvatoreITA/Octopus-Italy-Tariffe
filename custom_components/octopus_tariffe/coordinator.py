@@ -61,18 +61,30 @@ class OctopusTariffeCoordinator(DataUpdateCoordinator):
                 except ValueError:
                     continue
 
-                # Assegnazione blindata
-                if "fissa 12m" in name and "gas" not in name:
+                # ========================================================
+                # FIX OCTOPUS TARIFFE (Aggiornato per Fissa 24M e nomi dinamici)
+                # ========================================================
+                
+                # LUCE FISSA (che sia 12M o 24M) - deve contenere 'fissa' ma non 'gas'
+                if "fissa" in name and "gas" not in name:
                     data["fissa_luce"] = standing_charge
-                    data["fissa_12m_luce"] = consumption_charge
-                elif "fissa 12m gas" in name:
+                    data["fissa_12m_luce"] = consumption_charge # Teniamo questa chiave per non rompere i vecchi sensori
+                
+                # GAS FISSO (che sia 12M o 24M)
+                elif "fissa" in name and "gas" in name:
                     data["fissa_gas"] = standing_charge
-                    data["fissa_12m_gas"] = consumption_charge
+                    data["fissa_12m_gas"] = consumption_charge # Teniamo questa chiave per non rompere i vecchi sensori
+                
+                # LUCE FLEX MONO
                 elif "flex mono" in name:
                     data["flex_luce"] = standing_charge
                     data["flex_mono_luce"] = consumption_charge
+                
+                # LUCE FLEX MULTI
                 elif "flex multi" in name:
                     data["flex_multi_luce"] = consumption_charge
+                
+                # GAS FLEX
                 elif "flex gas" in name:
                     data["flex_gas"] = standing_charge
                     data["flex_gas_materia"] = consumption_charge
